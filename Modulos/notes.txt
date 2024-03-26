@@ -1,0 +1,27 @@
+exemplos de módulos
+
+
+modulo de http
+const http = require('http')
+
+podemos instalar os modulus com o npm i xxxx 
+
+Mas qual a lógica de um modulo?
+
+Um modulo é uma unidade isolada e autônoma que pode ser usado em vários projetos. Ele possui suas próprias propriedades, mét
+- Organização do nosso projeto.
+- Reutilizar código em diferentes partes do nosso projeto.
+- Fazer com que nossos programas sejam mais leves e fáceis de serem entendidos por outros desenvolvedores.
+
+Existem dois tipos de módulos:
+1. Módulos internos do NodeJS (geralmente começam com "http", "fs" etc).
+2. Módulos externos, que são baixados via NPM (Node Package Manager), como o http acima.
+
+Para criarmos um módulo externo precisamos seguir esses passos  :
+1. Criar uma pasta na raiz do projeto chamada "my_module".
+2. Dentro dessa pasta criar um arquivo chamado "index.js".
+3. No index.js exportar algo     para poder ser usado fora daquele módulo.
+javascript é uma linguagem fracamente tipada, isso significa que não temos informações de tipo, 
+ou seja, podemos enviar
+4. Em outra parte do projeto usar javascript é case sensitive, ou seja, MyFunction e myfunction são 
+duas coisas diferentes.   
